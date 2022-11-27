@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --blue:#2196F3;
+    --black:#212121;
+    --grey:#757575;
+    --greyBg:#F5F4FA;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+button{border: none; cursor: pointer;}
+button:hover{background-color: var(--blue); color: #ffffff;}
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3%;
+    color: var(--grey);
+    font-style: normal;
+}
+body{
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
